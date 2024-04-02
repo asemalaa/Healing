@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:project/component/button.dart';
 import 'package:project/component/box.dart';
 
+//vjkvk
 class doctors extends StatelessWidget {
   const doctors();
 
@@ -12,12 +13,11 @@ class doctors extends StatelessWidget {
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.only(right: 310, bottom: 30, top: 50),
-            child: Image.asset(
-              'images/arrow-left.png',
-              scale: 0.9,
-            ),
-          ),
+              padding: const EdgeInsets.only(right: 310, bottom: 30, top: 50),
+              child: Image.asset(
+                'images/arrow-left.png',
+                scale: 0.9,
+              )),
           Padding(
             padding: const EdgeInsets.only(right: 170, bottom: 20),
             child: Image.asset(
